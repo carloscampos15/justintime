@@ -2,7 +2,7 @@
 	position: relative;
 	&, .container > .row {
 		height: 100vh;
-		min-height: 900px;
+		min-height: 1200px;
 	}
 	
 	&.single-cover {
@@ -52,6 +52,7 @@
 		border-bottom-right-radius: 0px;
 		@include media-breakpoint-down(md) {
 			width: 100%;
+			
 		}
 	}
 
