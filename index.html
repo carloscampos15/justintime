@@ -92,16 +92,16 @@
                   <form action="https://smartpetbin.com/test/sendMail.php" method="post" class="form-box">
                     <h3 class="h4 text-black mb-4 text-center">Información</h3>
                     <div class="form-group">
-                      <input name="name" id="name" type="text" class="form-control" placeholder="Nombre completo">
+                      <input name="name" id="name" type="text" class="form-control" placeholder="Nombre completo" required>
                     </div>
                     <div class="form-group">
-                      <input name="email" id="email" type="text" class="form-control" placeholder="Correo Electrónico">
+                      <input name="email" id="email" type="text" class="form-control" placeholder="Correo Electrónico" required>
                     </div>
                     <div class="form-group">
-                      <input name="age" id="age" type="number" class="form-control" placeholder="Edad" >
+                      <input name="age" id="age" type="number" class="form-control" placeholder="Edad" required>
                     </div>
                     <div class="form-group">
-                      <input name="occupation" id="occupation" type="text" class="form-control" placeholder="Ocupación">
+                      <input name="occupation" id="occupation" type="text" class="form-control" placeholder="Ocupación" required>
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-primary btn-pill btn-block" value="Enviar">
@@ -479,27 +479,27 @@
             <form action="https://smartpetbin.com/test/sendContact.php" method="post" class="form-box" method="post" data-aos="fade">
               <div class="form-group row">
                 <div class="col-md-6 mb-3 mb-lg-0">
-                  <input id="name" name="name" type="text" class="form-control" placeholder="Nombre">
+                  <input id="name" name="name" type="text" class="form-control" placeholder="Nombre" required>
                 </div>
                 <div class="col-md-6">
-                  <input type="text" name="lastname" class="form-control" placeholder="Apellidos">
+                  <input type="text" name="lastname" class="form-control" placeholder="Apellidos" required>
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="text" name="subject" class="form-control" placeholder="Asunto">
+                  <input type="text" name="subject" class="form-control" placeholder="Asunto" required>
                 </div>
               </div>
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="email" name="email" class="form-control" placeholder="Correo Electrónico">
+                  <input type="email" name="email" class="form-control" placeholder="Correo Electrónico" required>
                 </div>
               </div>
               <div class="form-group row">
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui"></textarea>
+                  <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Escribe tu mensaje aqui" required></textarea>
                 </div>
               </div>
 
