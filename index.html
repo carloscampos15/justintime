@@ -47,7 +47,7 @@
       
       <div class="container-fluid">
         <div class="d-flex align-items-center">
-          <div class="site-logo mr-auto"><a href="index.html">Just In Time</a></div>
+          <div class="site-logo mr-auto"><a href="index.html">JUST IN TIME</a></div>
 
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
@@ -63,7 +63,7 @@
           <div class="ml-auto w-25">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0" >
-                <li class="cta"><a href="#contact-section" class="nav-link"><span style="background-color: #0877B3;">Contáctanos</span></a></li>
+                <li class="cta"><a href="#contact-section" class="nav-link"><span style="background-color: #FF974A;">Contáctanos</span></a></li>
               </ul>
             </nav>
             <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
@@ -75,13 +75,13 @@
 
     <div class="intro-section" id="home-section">
       
-      <div class="slide-1" style="background-image: url('images/hero_01.jpg');" data-stellar-background-ratio="0.5">
+      <div class="slide-1" style="background-image: url('images/gobernacion.jpeg');" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-12">
               <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
-                  <h1  data-aos="fade-up" data-aos-delay="100">En Just In Time</h1>
+                  <img data-aos="fade-up" data-aos-delay="100" src="images/logo2.png" alt="logo just in time" style="margin-bottom: 24px;">
                   <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">Conectamos a los ciudadanos con la información de rutas y horarios del transporte público, permitiendo su acceso de manera eficiente a través de herramientas digitales para su difusión al alcance de todos.</p>
                   <p class="mb-4"  data-aos="fade-up" data-aos-delay="200">¿Te gustaría ser una de las primeras personas en lograrlo? Sólo debes llenar el siguiente formulario, también te obsequiaremos un pequeño detalle. </p>
                   <!-- <p data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary py-3 px-5 btn-pill">Admission Now</a></p> -->
@@ -101,7 +101,14 @@
                       <input name="age" id="age" type="number" class="form-control" placeholder="Edad" required>
                     </div>
                     <div class="form-group">
-                      <input name="occupation" id="occupation" type="text" class="form-control" placeholder="Ocupación" required>
+                      <select name="occupation" id="occupation" class="form-control" placeholder="Ocupación" required>
+                        <option value="" selected disabled>Ocupación</option> 
+                        <option value="Estudiante">Estudiante</option> 
+                        <option value="Empleado">Empleado</option> 
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <input name="city" id="city" type="text" class="form-control" placeholder="Ciudad de residencia" required>
                     </div>
                     <div class="form-group">
                       <input type="submit" class="btn btn-primary btn-pill btn-block" value="Enviar">
